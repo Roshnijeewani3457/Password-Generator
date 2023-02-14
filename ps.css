@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    
+    background-color: burlywood;
+   
+}
+.main {
+
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    min-width: 400px;
+    height:400px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgb(0 0 0 / 50%);
+    background:chocolate;
+    border-radius: 2px;
+    margin-top: 15px;
+}
+
+#pass-box {
+    width: 100%;
+    display: block;
+    background-color: white;
+    font-size: 30px;
+    padding: 12px;
+    border-radius: 4px;
+    height: 50px;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+    color: white;
+    font-size: 20px;
+}
+
+label {
+    user-select: none;
+}
+#btn {
+    width: 100%;
+    font-size: 20px;
+    outline: 0;
+    border: 0;
+    padding: 10px;
+    background-color:burlywood;
+    color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+#btn:hover{
+ 
+    color: crimson;
+}
